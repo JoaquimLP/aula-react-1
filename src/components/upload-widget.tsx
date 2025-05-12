@@ -34,9 +34,7 @@ export function UploadWidget() {
                     }
                 }}
              >
-                {!isWidgetOpen && <UploadWidgetMinimizedButton />}
-
-           
+                {!isWidgetOpen && <UploadWidgetMinimizedButton />}          
                 <Collapsible.Content>
                     <UploadWidgetHeader />
                     <div className="flex flex-col gap-4 py-3">
